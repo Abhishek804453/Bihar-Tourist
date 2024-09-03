@@ -1,0 +1,52 @@
+ .box{
+     position:relative;
+    text-align:center;
+    color:white;
+    background : #222;
+ }
+ 	  
+.image {
+      display: block;
+      width: 80%;
+      height: auto;
+      margin-left: 10%;
+}
+
+.overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #e46635;
+      overflow: hidden;
+      width: 80%;
+      height: 0;
+      transition: .5s ease;
+      opacity: 0.5;
+      margin-left: 10%;
+}
+    
+.box:hover .overlay {
+      height: 100%;
+}
+    
+.text {
+      color: yellow;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+      text-shadow: black;
+      font-style: inherit;
+      font-size: 30px;
+      font-weight: bolder;
+}
+
+.hotelbooking {
+    text-align: center; 
+    color:red;	
+}
